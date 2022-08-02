@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@800&family=Poppins:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+
+body{
+  background-color: #000;
+  background: linear-gradient(rgba(20, 39, 75, 0.733), rgba(18, 41, 78, 0.664)), url("/assets/pexels-maxyne-barcel-10402282\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  opacity: 1;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+/* .navbar{
+  display: inline-block;
+  position: relative;
+} */
+
+.logo{
+  /* display: inline-block; */
+  position: absolute;
+  margin: 30px 40px;
+}
+
+.list{
+  display: inline-block;
+  position: relative;
+  margin-left: 500px;
+  margin-top: 50px;
+  text-decoration: none;
+}
+
+.navbar>*{
+  display: inline;
+  position: relative;
+  /* margin: 20px 20px; */
+}
+
+.list-item{
+  text-decoration: none;
+  display: inline-block;
+  /* position: relative; */
+  gap: 1rem;
+  margin-right: 50px;
+  font-size: 22px;
+  color: #F7CD2E;
+  padding: auto 3rem;
+}
+
+.list-item:hover{
+  cursor: pointer;
+  color: #fff;
+}
+
+.button-small{
+  margin-top: -50px;
+  margin-left: 250px;
+  font-size: 22px;
+  padding: 10px 40px;
+  background-color: #D82E2F;
+  border: none;
+  color: #fff;
+}
+
+.button-small:hover{
+  box-shadow: 10px 5px 5px rgb(2, 9, 71);
+  cursor: pointer;
+}
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+.hero{
+  text-align: center;
+  margin-top: 110px;
+}
+
+.hero-heading{
+  font-size: 120px;
+  color: #F7CD2E;
+  /* font-family: 'Poppins'; */
+  margin: auto 200px;
+  line-height: 110px;
+}
+
+.button-large{
+  margin-top: 60px;
+  padding: 15px 40px;
+  border: none;
+  font-size: 28px;
+  color: #fff;
+  background-color: #D82E2F;
+}
+
+.bottom{
+  margin-top: 50px;
+}
+
+.button-large:hover{
+  box-shadow: 10px 5px 5px rgb(2, 9, 71);
+  cursor: pointer;
+}
+
