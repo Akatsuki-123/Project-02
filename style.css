@@ -25,10 +25,11 @@ body{
   position: relative;
 } */
 
-.logo{
+img[alt=logo]{
   /* display: inline-block; */
   position: absolute;
-  margin: 30px 40px;
+  margin: 40px 30px;
+  height: 50px;
 }
 
 .list{
@@ -63,7 +64,7 @@ body{
 
 .button-small{
   margin-top: -50px;
-  margin-left: 250px;
+  margin-left: 180px;
   font-size: 22px;
   padding: 10px 40px;
   background-color: #D82E2F;
@@ -84,10 +85,10 @@ body{
 }
 
 .hero-heading{
-  font-size: 120px;
+  font-size: 110px;
   color: #F7CD2E;
   /* font-family: 'Poppins'; */
-  margin: auto 200px;
+  margin: auto 180px;
   line-height: 110px;
 }
 
